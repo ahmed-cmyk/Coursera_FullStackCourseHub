@@ -2,10 +2,63 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
 	<title>Assignment Solution for Module 3</title>
 </head>
 <body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="navbar-header" id="navbarTitle">
+				<a class=navbar-brand href="#">
+					Food, <span id="companyType">llc</span>
+				</a>
+			</div>
+			<div class="dropdown pull-right visible-xs">
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    <span class="glyphicon glyphicon-menu-hamburger">
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			    <a class="dropdown-item" href="#Chicken">Chicken</a>
+			    <a class="dropdown-item" href="#Beef">Beef</a>
+			    <a class="dropdown-item" href="#Sushi">Sushi</a>
+			  </div>
+			</div>
+		</nav>
+	</header>
 
+	<div class="container">
+		<h1 class="text-center">Our Menu<h1>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="contentTile" id="Chicken">
+					<h2>Chicken</h2>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollitanim id est laborum.</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="contentTile" id="Beef">
+					<h2>Beef</h2>
+					<hr>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="contentTile" id="Sushi">
+					<h2>Sushi</h2>
+					<hr>
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
