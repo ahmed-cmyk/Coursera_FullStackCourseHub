@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+.col1, .col2, .col3 {
+	position: relative;
+	float: right;
+	margin: 30px 20px 20px 20px;
+	height: 170px;
+	background-color: gray;
+	border: 1px solid black;
+}
+
+
+.column h3 {
+	position: absolute;
+	right: 0;
+	margin-top: 0;
+	padding: 1%;
+	background-color: blue;
+	border: 1px solid black;
+}
+
+.column p {
+	position: absolute;
+	margin: 10% 5%;
+	padding: 0.5%;
+}
+
+/******** Desktop Devices ********/
+@media (min-width: 992px) {
+	.col1, .col2, .col3 {
+		width: 30%;
+	}
+}
+
+/******** Tablet Devices ********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col1, .col2 {
+		width: 45%;
+	}
+
+	.col3 {
+		width: 80%;
+		float: center;
+	}
+}
+
+/******** Mobile Devices ********/
+@media (max-width: 767px) {
+	.col1, .col2, .col3 {
+		width: 80%;
+	}
+}
