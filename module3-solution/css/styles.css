@@ -6,6 +6,7 @@
 .navbar {
 	background-color: black;
 	border-radius: 0;
+	border: 0;
 	height: 60px;
 	position: relative;
 }
